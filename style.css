@@ -1,0 +1,48 @@
+.wrapper {
+
+}
+
+.header {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 85px;
+    padding-top: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+nav .green a{
+    text-decoration: none;
+    font-size: 25px;
+    color: green;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+     background-position: right top;
+    background-image: url(right.png);
+    background-size:100% auto;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.hero .teks{
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+}
+
